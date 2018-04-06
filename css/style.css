@@ -34,3 +34,12 @@ main {
 .contact {
 
 }
+
+.editions {
+  padding-top: 100px;
+}
+
+.editions img {
+  width: 100px;
+  height: 100px;
+}
