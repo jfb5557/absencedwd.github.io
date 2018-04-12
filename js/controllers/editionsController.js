@@ -1,7 +1,11 @@
 app.controller("editionsController", ['$scope', function($scope) {
 
-  $scope.editions =
-  [
+  $scope.editions = [
+    {
+      year: 2017,
+      cover: 'img/edition-covers/cover2017.jpg',
+      pdf: ''
+    },
     {
       year: 2016,
       cover: 'img/edition-covers/cover2016.jpg',
@@ -9,9 +13,24 @@ app.controller("editionsController", ['$scope', function($scope) {
     },
     {
       year: 2015,
-      cover: 'img/edition-covers/cover2016.jpg',
+      cover: 'img/edition-covers/cover2015.jpg',
       pdf: ''
     },
+    {
+      year: 2014,
+      cover: 'img/edition-covers/cover2014.jpg',
+      pdf: ''
+    },
+    {
+      year: 2013,
+      cover: 'img/edition-covers/cover2013.jpg',
+      pdf: ''
+    },
+    {
+      year: 2012,
+      cover: 'img/edition-covers/cover2012.jpg',
+      pdf: ''
+    }
   ]
 
 }]);

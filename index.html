@@ -9,6 +9,7 @@
 	<!-- Bootstrap and jQuery -->
   <script src="libs/jquery-3.2.1.min.js"></script>
   <link href="libs/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Proyect CSS and JavaScript -->
   <script src="js/script.js" type="text/javascript"></script>
@@ -19,36 +20,27 @@
   <!-- Header -->
   <header>
     <div class="container">
-      <nav class="nav">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="/"><span>ABSENCE</span></a>
+            <a class="navbar-brand" href="index.html"><span>ABSENCE</span></a>
           </div>
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="/index.html">About Us</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html#about">About Us</a>
             </li>
-            <li>
-              <a href="">Submission Info</a>
+            <li class="nav-item">
+              <a class="nav-link" href="pdf/submissions.pdf">Submission Info</a>
             </li>
-            <li>
-              <a href="">Prizes</a>
+            <li class="nav-item">
+              <a class="nav-link" href="pdf/prizes.pdf">Prizes</a>
             </li>
-            <li>
-              <a href="">Special Calls</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Special Calls</a>
             </li>
-            <li>
-              <a href="">Editions</a>
+            <li class="nav-item">
+              <a class="nav-link" href="editions.html">Editions</a>
             </li>
-            <!--
-            <li class="dropdown">
-              <a href=""><span class="glyphicon glyphicon-align-justify"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">I DO WORK</a>
-                </li>
-              </ul>
-            </li>
-            -->
           </ul>
         </div>
       </nav>
@@ -57,11 +49,52 @@
   <!-- Main -->
   <main>
     <div class="container">
+      <div class="jumbotron">
+        <div class="container">
+          <h1>ABSENCE</h1>
+          <p>
+            An arts organization
+          </p>
+        </div>
+      </div>
 
+    <!-- Carousel in work
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="./img/backgrounds/bg.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/backgrounds/bg.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    -->
     </div>
   </main>
+
   <!-- About Section -->
-  <div class="about">
+  <div id="about" class="about">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -69,21 +102,21 @@
           <p>
             ABSENCE-in its 20th year of publication by Penn State Greater Allegheny-
             is an annual review of the best literary and visual art made by students,
-	    staff, faculty, and alums of the campus each academic year. ABSENCE is 
-	    published each April, and is available for teh first time in paper at an 
+	    staff, faculty, and alums of the campus each academic year. ABSENCE is
+	    published each April, and is available for teh first time in paper at an
 	    annual "Celebration of the Arts: A Reading and Reception," which features
-	    the creative work of each year's authors and artists. Acceptance for 
-	    publication by the student editors is selective and competetive, holding 
+	    the creative work of each year's authors and artists. Acceptance for
+	    publication by the student editors is selective and competetive, holding
 	    at a rate of 20 to 25% since 2006.
 	  <p>
-	    Student editors have the opportunity to earn as many as 8 hours of Penn 
-	    State academic credit while working to produce ABSENCE by enrolling in 
-	    English 209: Journal or Magazine Practicum (offered during the Fall or 
+	    Student editors have the opportunity to earn as many as 8 hours of Penn
+	    State academic credit while working to produce ABSENCE by enrolling in
+	    English 209: Journal or Magazine Practicum (offered during the Fall or
 	    Spring semester).
 	  <p>
-	    Yearly publication of ABSENCE is sponsored by the Office of the 
-	    Chancellor, Academic Affairs, Admissions and Enrollment Management, 
-	    Development, the Student Activity Fee, Student Affairs, and by individual 
+	    Yearly publication of ABSENCE is sponsored by the Office of the
+	    Chancellor, Academic Affairs, Admissions and Enrollment Management,
+	    Development, the Student Activity Fee, Student Affairs, and by individual
 	    faculty and staff contributions.
           </p>
         </div>
@@ -100,15 +133,15 @@
         <div class="col-md-8">
           <h2>Our Mission</h2>
           <p>
-            The Mission of ABSENCE is the annual publication of a high-quality 
-	    literary and visual arts review for the Penn State Greater Allegheny 
-	    community. The review's goal is to provide all full- and part-time 
-	    PSUGA students, faculty, staff, and alumni a shared venue for their 
-	    creative endeavors, and to generate interest in the arts in the Greater 
-	    Allegheny community. The review also provides students professional 
-	    opportunities to prepare for careers as editors in publishing-whether 
-	    academic or trade, journal or book, paper or Web-and document/graphic 
-	    design. Past staff editors have gone on to work in publishing or on to 
+            The Mission of ABSENCE is the annual publication of a high-quality
+	    literary and visual arts review for the Penn State Greater Allegheny
+	    community. The review's goal is to provide all full- and part-time
+	    PSUGA students, faculty, staff, and alumni a shared venue for their
+	    creative endeavors, and to generate interest in the arts in the Greater
+	    Allegheny community. The review also provides students professional
+	    opportunities to prepare for careers as editors in publishing-whether
+	    academic or trade, journal or book, paper or Web-and document/graphic
+	    design. Past staff editors have gone on to work in publishing or on to
 	    various graduate/professional studies.
           </p>
         </div>
@@ -124,8 +157,8 @@
         <div class="col-md-8">
           <h2>Contact</h2>
           <p>
-            For questions-and to request copies of recent issues-or to request an 
-	    application to become a student editor, contact the Sr. Faculty Adviser 
+            For questions-and to request copies of recent issues-or to request an
+	    application to become a student editor, contact the Sr. Faculty Adviser
 	    and Publisher, Dr. Clifford Manlove (ctm10@psu.edu).
           </p>
         </div>
